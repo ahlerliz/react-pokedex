@@ -1,0 +1,13 @@
+.Pokecard{
+    background-color: cornsilk;
+    border-radius: 5px;
+    border:solid 1.5px black;
+    display: inline-block;
+    margin: 2px;
+}
+
+.Pokecard > *{
+    display: block;
+    /* margin: 3%; */
+    padding:10px;
+}

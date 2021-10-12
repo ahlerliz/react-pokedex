@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import pokemonList from './pokemon';
-import Pokedex from './Pokedex';
+import pokemonList from './pokemon.js';
+import Pokedex from './Pokedex.js';
+import Pokegame from './Pokegame.js'
 
 
 function App() {
   return (
     <div className="App">
-      <Pokedex pokemonList={pokemonList}/>
+      <Pokegame/>
     </div>
   );
 };
